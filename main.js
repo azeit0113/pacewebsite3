@@ -24,7 +24,7 @@ $( document ).on( "pageinit", "#map-page", function() {
         var marker = new google.maps.Marker({
             position: latlng,
 			map: map,
-            title: "Greetings!"
+            title: "You Are Here!"
         });
 		var marker1 = new google.maps.Marker({
             position: new google.maps.LatLng(40.7252357,-74.0038984),
